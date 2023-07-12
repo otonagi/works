@@ -7,7 +7,7 @@ const sendMessageInterval = async (client) => {
     if (channel && channel.isText) {
       setInterval(() => {
         console.log(messageText);
-        // channel.send(messageText);
+        channel.send(messageText);
       }, messageInterval);
     } else {
       console.error('Specified channel not found or is not a text channel.');
