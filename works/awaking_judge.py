@@ -1,7 +1,3 @@
-# CNNを用いた覚醒度(眠いか否か)を教師あり学習にて自動判別するプログラム
-# 中心フリッカー値(CFF)にて、光源の点滅が認識できる限界の値を用いて眠いか否かを決定し、
-# 機械学習では、face_cut.pyにて切り出したサーモグラフィ画像の顔部分の特徴量の差にて判断させている。
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
