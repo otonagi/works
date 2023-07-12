@@ -2,7 +2,6 @@ import pygame.mixer
 import schedule
 import time
 
-
 #アラーム処理
 def Alarm():
     print("時間です")
