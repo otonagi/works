@@ -20,7 +20,7 @@ const sendReport = (client, message, username, reportMessage) => {
   }
 };
 
-// otonagiにメッセージを送信する関数
+// my_idにメッセージを送信する関数
 const sendMessageToMe = async (client, message, targetMessage) => {
   const targetDMChannel = await client.users.fetch(My_ID).createDM();
   if (targetDMChannel) {
